@@ -58,7 +58,7 @@ CDC(씨다씨)
 
 ## 제품 아키텍처 (이미지)
 
-[image](https://github.com/hackersground-kr/hg-CDC-team/commit/fcabfa1a5383b368e88b031248b4f2684984ae2c)
+![image](https://github.com/hackersground-kr/hg-CDC-team/commit/fcabfa1a5383b368e88b031248b4f2684984ae2c)
 
 ## 제품 소개 슬라이드
 
