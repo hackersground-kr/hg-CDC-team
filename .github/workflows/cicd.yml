@@ -37,6 +37,6 @@ jobs:
           DB_USERNAME: ${{ secrets.DB_USERNAME }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_DATABASE: ${{ secrets.DB_DATABASE }}
-          JWT_SECRET: ${{ secrets.JWT_SECRET }}
-          JWT_ACCESS_TOKEN_EXPIRATION: ${{ secrets.JWT_ACCESS_TOKEN_EXPIRATION }}
-          JWT_REFRESH_TOKEN_EXPIRATION: ${{ secrets.JWT_REFRESH_TOKEN_EXPIRATION }}
+          JWT_SECRET: "Secret"
+          JWT_ACCESS_TOKEN_EXPIRATION: "2h"
+          JWT_REFRESH_TOKEN_EXPIRATION: "10d"
