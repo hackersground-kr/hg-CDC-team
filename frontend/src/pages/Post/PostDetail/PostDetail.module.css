@@ -1,0 +1,181 @@
+.container {
+  width: 450px;
+  height: 88vh;
+  right: 60px;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addressBar {
+  background-color: #f0f0f0;
+  margin-top: 80px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  height: 380px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.postDetail h2 {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+.postDetail p {
+  color: #666;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.content {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.likeSection {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.likeButton {
+  background: none;
+  border: 2px solid #03a9f4;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #03a9f4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.likeButton:hover {
+  background-color: #03a9f4;
+  color: white;
+}
+
+
+.menu {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  font-size: 1.1rem;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.menuButton:hover {
+  transform: scale(1.1);
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 10;
+  margin-top: 7px;
+}
+
+.dropdownButton {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 1em;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdownButton:hover {
+  background-color: #03a9f4;
+  color: white;
+}
+
+.commentSection {
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.error {
+  color: #ff4757;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.commentForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.commentInput {
+  flex-grow: 1;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.commentButton {
+  background-color: #03A9F4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.commentButton:hover {
+  background-color: #0b8ecb;
+}
+
+.comments {
+  margin-top: 20px;
+}

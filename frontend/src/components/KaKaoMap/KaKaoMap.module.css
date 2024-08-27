@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  height: 93vh;
+}
+
+.mapContainer {
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.buttonContainer {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 10;
+}
+
+.mapButton {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.mapButton:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+.mapButton img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.navButton {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+.searchForm {
+  display: flex;
+  margin-left: 10px;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px 0 0 20px;
+  font-size: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.searchButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #03a9f4;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.searchResultsContainer {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  z-index: 10;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+  overflow-y: auto;
+  width: 300px;
+}
+
+.searchResultList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.searchResultItem {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.searchResultItem:hover {
+  background-color: #e9ecef;
+}
+
+.searchResultTitle {
+  font-weight: bold;
+}
+
+.searchResultAddress {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.postDetailOverlay {
+  width: 400px;
+  height: 85vh;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  z-index: 10;
+}
+
+.noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 1.5em;
+  color: #666;
+}
